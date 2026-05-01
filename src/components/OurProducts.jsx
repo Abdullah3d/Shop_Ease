@@ -1,18 +1,18 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { allProducts } from '../data/products';
-import { CartContext } from '../context/CartContext'; // ইমপোর্ট করুন
-import { WishlistContext } from '../context/WishlistContext'; // উইশলিস্টের জন্য
+import { CartContext } from '../context/CartContext';
+import { WishlistContext } from '../context/WishlistContext'; 
 import toast from 'react-hot-toast';
 import { ShoppingBag, Heart, Eye } from 'lucide-react';
 
 const OurProducts = () => {
-    const [activeTab, setActiveTab] = useState('HOT');
-    const { addToCart } = useContext(CartContext); // Context থেকে ফাংশন নিন
+    const [activeTab, setActiveTab] = useState('ELEGANT');
+    const { addToCart } = useContext(CartContext);
     const { addToWishlist, wishlist } = useContext(WishlistContext);
 
     const tabs = [
-        { name: 'HOT', filter: 'HOT' },
+        { name: 'ELEGANT', filter: 'ELEGANT' },
         { name: 'ON SALE', filter: 'SALE' },
         { name: 'TRENDING NOW', filter: 'TRENDING' },
         { name: 'NEW ARRIVAL', filter: 'NEW' },
@@ -105,8 +105,8 @@ const OurProducts = () => {
                                         {product.name}
                                     </h3>
                                     <div className="flex justify-center gap-3 text-sm">
-                                        <span className="text-gray-400 line-through">৳{product.oldPrice}</span>
-                                        <span className="font-bold text-[#2D241E] dark:text-white font-mono">৳{product.price}</span>
+                                        <span className="text-gray-400 line-through">${product.oldPrice}</span>
+                                        <span className="font-bold text-[#2D241E] dark:text-white font-mono">${product.price}</span>
                                     </div>
                                 </div>
                             </div>

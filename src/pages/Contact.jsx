@@ -21,7 +21,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-xs uppercase tracking-widest text-gray-400">Phone</h4>
-                                    <p className="text-[#2D241E] dark:text-white font-medium">+1 (234) 567-890</p>
+                                    <p className="text-[#2D241E] dark:text-white font-medium">0188879-0045</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-6">
@@ -30,7 +30,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-xs uppercase tracking-widest text-gray-400">Email</h4>
-                                    <p className="text-[#2D241E] dark:text-white font-medium">support@fifash.com</p>
+                                    <p className="text-[#2D241E] dark:text-white font-medium">abdullah.ibrahim.2411@gmail.com
+</p>
                                 </div>
                             </div>
                         </div>

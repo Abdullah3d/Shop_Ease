@@ -32,7 +32,7 @@ const Faq = () => {
         <div className="py-20 px-6 dark:bg-gray-900 min-h-screen">
             <div className="max-w-3xl mx-auto">
                 <h1 className="text-5xl font-serif text-center text-[#2D241E] dark:text-white mb-4">Frequently Asked Questions</h1>
-                <p className="text-center text-gray-500 italic mb-16">Everything you need to know about your FIFASH experience.</p>
+                <p className="text-center text-gray-500 italic mb-16">Everything you need to know about your shop-ease experience.</p>
                 <div className="space-y-2">
                     {faqs.map((faq, index) => (
                         <FaqItem key={index} {...faq} />

@@ -13,6 +13,7 @@ import Contact from "../pages/Contact";
 import Shop from "../pages/Shop";
 import Wishlist from "../pages/Wishlist";
 import Checkout from "../pages/Checkout";
+import AIRecommendation from "../pages/AIRecommendation";
 
 const AppRoutes = () => {
     return (
@@ -28,6 +29,7 @@ const AppRoutes = () => {
             <Route path="/collection" element={<Shop />} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/ai" element={<AIRecommendation />} />
 
             {/* --- New Category Routes --- */}
             <Route path="/men" element={

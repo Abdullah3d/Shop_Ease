@@ -12,12 +12,12 @@ const AboutSection = () => {
                         ••••••<br />••••••<br />••••••
                     </div>
 
-                    {/* Main Image with specific rounded corner */}
+                    {/* Updated Main Image */}
                     <div className="w-full h-[500px] rounded-tl-[150px] rounded-br-[20px] overflow-hidden shadow-2xl">
                         <img
-                            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1000&auto=format&fit=crop"
-                            alt="About Fashion"
-                            className="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1537832816519-689ad163238b?q=80&w=2070&auto=format&fit=crop"
+                            alt="FiFash Quality Apparel"
+                            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                         />
                     </div>
 
@@ -30,12 +30,12 @@ const AboutSection = () => {
                         <div className="w-[1px] bg-gray-200"></div>
                         <div className="text-center">
                             <h4 className="text-2xl font-bold text-[#2D241E] dark:text-white">8900+</h4>
-                            <p className="text-[10px] uppercase tracking-tighter text-gray-500">Product Sold</p>
+                            <p className="text-[10px] uppercase tracking-tighter text-gray-500">Products Sold</p>
                         </div>
                         <div className="w-[1px] bg-gray-200"></div>
                         <div className="text-center">
                             <h4 className="text-2xl font-bold text-[#2D241E] dark:text-white">3105+</h4>
-                            <p className="text-[10px] uppercase tracking-tighter text-gray-500">Best Reviews</p>
+                            <p className="text-[10px] uppercase tracking-tighter text-gray-500">Happy Reviews</p>
                         </div>
                     </div>
 
@@ -46,12 +46,13 @@ const AboutSection = () => {
                 {/* Right Side: Content */}
                 <div className="lg:w-1/2 mt-20 lg:mt-0">
                     <h2 className="text-5xl font-serif text-[#2D241E] dark:text-white leading-tight mb-8">
-                        Best Fashion <br /> Since 2016
+                        Crafting Your <br /> Unique Style <br /> Since 2014
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-lg italic">
-                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Ullamcorper Congue Eros,
-                        Eget Tincidunt Ipsum Eleifend Ut Orem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit
-                        Sed Ullamcorper Congue Eros Eleifend Ut Tincidunt Ipsum.
+                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-lg italic border-l-4 border-[#F3E5D8] pl-6">
+                        "We believe that fashion is more than just clothing—it's a form of self-expression.
+                        Since our journey began, we've been dedicated to bringing you high-quality,
+                        sustainable pieces that make you feel confident every single day.
+                        Our mission is to blend comfort with elegance, ensuring you always stand out from the crowd."
                     </p>
                 </div>
 

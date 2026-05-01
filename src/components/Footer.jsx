@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     const instaImages = [
         "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400",
-        "https://images.unsplash.com/photo-1475180098004-ca77a66827be?w=400",
-        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400",
         "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400",
-        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400"
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400",
+        "https://i.postimg.cc/rsFFhFvR/clothing.jpg",
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400"
     ];
 
     return (
@@ -26,7 +26,7 @@ const Footer = () => {
                     {/* UPDATED LINKS */}
                     <div className="flex flex-wrap justify-center gap-8 md:gap-12 text-xs font-bold uppercase tracking-[0.2em] mb-12">
                         <Link to="/men" className="hover:text-gray-300">Men</Link>
-                        <Link to="/woman" className="hover:text-gray-300">Woman</Link>
+                        <Link to="/woman" className="hover:text-gray-300">Women</Link>
                         <Link to="/kids" className="hover:text-gray-300">Kids</Link>
                         <Link to="/trends" className="hover:text-gray-300">Trends</Link>
                         <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
 
                     <div className="border-t border-white/10 pt-8">
                         <p className="text-gray-400 text-[10px] tracking-widest uppercase">
-                            © {new Date().getFullYear()} FIFASH. All Right Reserved
+                            © {new Date().getFullYear()} Shop-ease. All Right Reserved
                         </p>
                     </div>
                 </div>
