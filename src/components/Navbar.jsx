@@ -223,6 +223,7 @@ const Navbar = () => {
                         >
                             Kids
                         </Link>
+                        <Link to="/ai" onClick={() => setIsMenuOpen(false)}>AI Stylist</Link>
 
                         {/* Mobile Search */}
                         <form
